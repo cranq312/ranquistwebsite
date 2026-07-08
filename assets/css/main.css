@@ -16,7 +16,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 
 #menu { position: fixed; top: 0; right: 0; width: 22em; max-width: 80%; height: 100%; background: #585858; transform: translateX(100%); transition: transform 0.45s ease; z-index: 10000; padding: 3em; overflow-y: auto; }
 body.is-menu-visible #menu { transform: translateX(0); }
-body.is-menu-visible #wrapper { opacity: 0.25; pointer-events: none; }
+body.is-menu-visible #wrapper { opacity: 0.4; pointer-events: none; }
 #menu .close { position: absolute; top: 1em; right: 1em; color: #fff; cursor: pointer; border: none; font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.1em; }
 #menu ul li a { display: block; padding: 1em 0; border-top: 1px solid rgba(255,255,255,0.1); color: #fff; border-bottom: none; }
 #menu ul li:first-child a { border-top: none; }
